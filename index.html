@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="val.css">
+</head>
+<body>
+<div class="container">
+    <form action="backend.php" method="get">
+    <fieldset>
+     
+       <legend style="color: blue;"><b>INFORMATION DETAILS</b></legend>
+       <br>
+       <div class="space">
+       <label for="txtname">Name</label><br>
+       <input type="text" id="txtname" required>
+       <br>
+       <label for="regno">Reg no</label><br>
+       <input type="number" id="regno" value="0123456789" required>
+       <br>
+       <label for="age">Date of Birth</label><br>
+       <select for="date" required>
+        <option value="age" selected disabled>Date</option>
+        <option value="01">18</option>
+        <option value="01">19</option>
+        <option value="01">20</option>
+        <option value="01">21</option>
+       </select>
+       <select for="month" required>
+        <option value="age" selected disabled>Month</option>
+        <option value="01">Jan</option>
+        <option value="01">Feb</option>
+        <option value="01">Mar</option>
+        <option value="01">Apr</option>
+        <option value="01">May</option>
+        <option value="01">June</option>
+        <option value="01">July</option>
+        <option value="01">Aug</option>
+        <option value="01">Sep</option>
+        <option value="01">Oct</option>
+        <option value="01">Nov</option>
+        <option value="01">Dec</option>
+       </select>
+       <select for="year" required>
+        <option value="age" selected disabled>Year</option>
+        <option value="01">2000</option>
+        <option value="01">2001</option>
+        <option value="01">2002</option>
+        <option value="01">2003</option>
+        <option value="01">2004</option>
+        <option value="01">2005</option>
+       </select>
+       <br>
+       <label for="password">Password</label><br>
+       <input type="password" id="password" required>
+       <br>
+       <label for="Email">Email</label><br>
+       <input type="email" name="Email" id="email" placeholder="Enter your valid email" required/><br>
+       <label for="Gender">Gender</label><br>    
+       <input type="radio" name="Gender" id="Male">
+       <label for="Male">Male</label>
+       <input type="radio" name="Gender" id="Female">
+       <label for="Female">Female</label>
+       <br>
+       <label for="check">Favorite Color</label><br>    
+       <input type="checkbox" name="color" id="Blue">
+       <label for="Blue">Blue</label>
+       <input type="checkbox" name="Color" id="Pink">
+       <label for="Pink">Pink</label>
+       <input type="checkbox" name="Color" id="Violet">
+       <label for="Violet">Violet</label>
+       <br>
+       <label for="date">Date</label><br>
+       <input type="date" id="date">
+       <br>
+       <label for="time">Time</label><br>
+       <input type="time" id="time">
+       <br>
+       <label for="phoneno">Telephone No</label><br>
+       <input type="tel" id="phoneno">
+       <br>
+       <label for="file">Choose File</label><br>
+       <input type="file" id="file">
+       <br>
+       <label for="search">Search File</label><br>
+       <input type="search" id="search">
+       <br>
+       <label for="range">Range 1 to 10</label><br>
+       <input type="range" id="range">
+       <br>
+       <textarea>Hi There!</textarea>
+       <br>
+       <!-- <label for="submit" class="button"></label><br>
+       <input type="submit" id="submit" > -->
+       <button>Submit</button>
+       <br>
+    </div>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+.container{
+    background-color: aliceblue;
+    padding: 5px;
+}
+.space{
+    padding: 5px;
+}
+#submit{
+    text-align: center;
+}
